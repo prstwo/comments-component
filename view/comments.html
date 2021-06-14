@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>کامنت ها</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/comments.css" type="text/css">
+</head>
+<body>
+    <section class="post-comments js-post-comments">
+        <div class="comments-container">
+            <section class="post-new-comment ">
+        <!-- comment form -->
+        <div class="flex mx-auto items-center justify-center shadow-lg mx-8 mb-4 max-w-lg text-black">
+            <form class="w-full max-w-xl bg-white rounded-lg px-4 pt-2 js-comment-form">
+                <div class="flex flex-wrap -mx-3 mb-6">
+                    <h2 class="px-4 pt-3 pb-2 text-gray-800 text-lg">نظرتان را بنویسید</h2>
+                    <div class="w-full md:w-full px-3 mb-2 mt-2 text-sm">
+    
+                        <textarea class="bg-gray-100 rounded border border-gray-400 leading-normal resize-none w-full h-20 py-2 px-3 font-medium placeholder-gray-400 focus:outline-none focus:bg-white" name="body" placeholder="شما چه نظری دارید؟" required=""></textarea>
+                        <div class="flex flex-row justify-start mt-2">
+                            <input name="commentor-info" type="text" class=" w-6/12 sm:w-3/12 ml-4 bg-gray-100 rounded border border-gray-400 py-2 px-3 placeholder-gray-400 focus:outline-none focus:bg-white" placeholder="نام شما" required="">
+                            <input name="commentor-info" type="email" class="w-6/12 sm:w-3/12 bg-gray-100 rounded border border-gray-400 py-2 px-3 placeholder-gray-400 focus:outline-none focus:bg-white" placeholder="ایمیل شما" required="">
+                        </div>
+                    </div>
+                    <div class="w-full md:w-full flex items-start md:w-full px-3 ">
+                        <div class="">
+                            <input type="submit" class="bg-white text-gray-700 font-medium py-1 px-4 border border-gray-400 rounded-lg tracking-wide mr-1 hover:bg-gray-100 js-leave-comment" value="ارسال نظر">
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+            <div class="all-comments-container">
+                <div class="comment-container">
+                    <div class="original-comment-container">
+        <div>
+            <div class="commentor-info push-left">
+                <div class="commentor-profile add-border-avatar">
+                    <a href="#commentor-account">
+                        <img src="../media/demo-profile1.png">
+                    </a>
+                </div>
+                <div class="commentor-name">
+                    <a href="#commentor-account">
+                        نام و نام خانوادگی</a>
+                </div>
+            </div>
+            <div class="commentor-comment">
+                لورم ایپسوم متن ساختگی با تولید متنوع
+                با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه
+                درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد،
+                تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی
+                الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد،
+    
+            </div>
+            <div class="reply-comment-section">
+                <a class="btn js-reply-btn"><i class="fas fa-reply "></i> پاسخ</a>
+            </div>
+        </div>
+    </div>
+                        <div class="comment-reply-container">
+        <div>
+            <div class="commentor-info push-left">
+                <div class="commentor-profile add-border-avatar">
+                    <a href="#commentor-account">
+                        <img src="../media/demo-profile4.png">
+                    </a>
+                </div>
+                <div class="commentor-name">
+                    <a href="#commentor-account"> نام و نام خانوادگی</a>
+                </div>
+            </div>
+            <div class="commentor-comment">
+                لورم ایپسوم متن ساختگی با تولید
+                سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،
+                چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم
+                است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع
+                با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه
+                درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد،
+                تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی
+                الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد،
+                در این صورت می توان امید داشت </div>
+            <div class="reply-comment-section">
+                <a class="btn js-reply-btn"><i class="fas fa-reply"></i> پاسخ</a>
+            </div>
+        </div>
+        <div class="comment-reply-container">
+        <div>
+            <div class="commentor-info push-left">
+                <div class="commentor-profile add-border-avatar">
+                    <a href="#commentor-account">
+                        <img src="../media/demo-profile4.png">
+                    </a>
+                </div>
+                <div class="commentor-name">
+                    <a href="#commentor-account"> نام و نام خانوادگی</a>
+                </div>
+            </div>
+            <div class="commentor-comment">
+                لورم ایپسوم متن ساختگی با تولید
+                سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،
+                چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم
+                است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع
+                با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه
+                درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد،
+                تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی
+                الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد،
+                در این صورت می توان امید داشت </div>
+            <div class="reply-comment-section">
+                <a class="btn js-reply-btn"><i class="fas fa-reply"></i> پاسخ</a>
+            </div>
+        </div>
+        <div class="comment-reply-container">
+        <div>
+            <div class="commentor-info push-left">
+                <div class="commentor-profile add-border-avatar">
+                    <a href="#commentor-account">
+                        <img src="../media/demo-profile4.png">
+                    </a>
+                </div>
+                <div class="commentor-name">
+                    <a href="#commentor-account"> نام و نام خانوادگی</a>
+                </div>
+            </div>
+            <div class="commentor-comment">
+                لورم ایپسوم متن ساختگی با تولید
+                سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،
+                چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم
+                است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع
+                با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه
+                درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد،
+                تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی
+                الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد،
+                در این صورت می توان امید داشت </div>
+            <div class="reply-comment-section">
+                <a class="btn js-reply-btn"><i class="fas fa-reply"></i> پاسخ</a>
+            </div>
+        </div>
+        
+    </div>
+                                <div class="comment-reply-container">
+        <div>
+            <div class="commentor-info push-left">
+                <div class="commentor-profile add-border-avatar">
+                    <a href="#commentor-account">
+                        <img src="../media/demo-profile4.png">
+                    </a>
+                </div>
+                <div class="commentor-name">
+                    <a href="#commentor-account"> نام و نام خانوادگی</a>
+                </div>
+            </div>
+            <div class="commentor-comment">
+                لورم ایپسوم متن ساختگی با تولید
+                سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،
+                چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم
+                است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع
+                با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه
+                درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد،
+                تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی
+                الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد،
+                در این صورت می توان امید داشت </div>
+            <div class="reply-comment-section">
+                <a class="btn js-reply-btn"><i class="fas fa-reply"></i> پاسخ</a>
+            </div>
+        </div>
+        
+    </div>
+    </div>
+    </div>
+    
+                    <div class="original-comment-container">
+        <div>
+            <div class="commentor-info push-left">
+                <div class="commentor-profile add-border-avatar">
+                    <a href="#commentor-account">
+                        <img src="../media/demo-profile1.png">
+                    </a>
+                </div>
+                <div class="commentor-name">
+                    <a href="#commentor-account">
+                        نام و نام خانوادگی</a>
+                </div>
+            </div>
+            <div class="commentor-comment">
+                لورم ایپسوم متن ساختگی با تولید متنوع
+                با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه
+                درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد،
+                تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی
+                الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد،
+    
+            </div>
+            <div class="reply-comment-section">
+                <a class="btn js-reply-btn"><i class="fas fa-reply "></i> پاسخ</a>
+            </div>
+        </div>
+    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <template id="new-comment">
+        <div class="post-new-comment-container ">
+            <section class="post-new-comment ">
+       <!-- comment form -->
+       <div class="flex mx-auto items-center justify-center shadow-lg mx-8 mb-4 max-w-lg text-black">
+           <form class="w-full max-w-xl bg-white rounded-lg px-4 pt-2 js-comment-form">
+               <div class="flex flex-wrap -mx-3 mb-6">
+                   <h2 class="px-4 pt-3 pb-2 text-gray-800 text-lg">نظرتان را بنویسید</h2>
+                   <div class="w-full md:w-full px-3 mb-2 mt-2 text-sm">
+   
+                       <textarea class="bg-gray-100 rounded border border-gray-400 leading-normal resize-none w-full h-20 py-2 px-3 font-medium placeholder-gray-400 focus:outline-none focus:bg-white" name="body" placeholder="شما چه نظری دارید؟" required=""></textarea>
+                       <div class="flex flex-row justify-start mt-2">
+                           <input name="commentor-info" type="text" class=" w-6/12 sm:w-3/12 ml-4 bg-gray-100 rounded border border-gray-400 py-2 px-3 placeholder-gray-400 focus:outline-none focus:bg-white" placeholder="نام شما" required="">
+                           <input name="commentor-info" type="email" class="w-6/12 sm:w-3/12 bg-gray-100 rounded border border-gray-400 py-2 px-3 placeholder-gray-400 focus:outline-none focus:bg-white" placeholder="ایمیل شما" required="">
+                       </div>
+                   </div>
+                   <div class="w-full md:w-full flex items-start md:w-full px-3 ">
+                       <div class="">
+                           <input type="submit" class="bg-white text-gray-700 font-medium py-1 px-4 border border-gray-400 rounded-lg tracking-wide mr-1 hover:bg-gray-100 js-leave-comment" value="ارسال نظر">
+                       </div>
+                   </div>
+               </div>
+           </form>
+       </div>
+   </section>
+        </div>
+   </template>
+   <div class="modal-overlay js-modal-overlay flex flex-col justify-center commentNotiOverlay">
+        
+        <div class="rounded shadow modal-content-container flex flex-col justify-between js-modal-content commentNotiModal" style="width:;height:auto;
+            top: ;left: ;">
+                        <form action="" class="text-center">
+            <p class="text-black text-justify">
+                از شما بابت ارسال نظر ارزشمندتان تشکر میکنیم. نظر شما پس از بررسی همکاران ما در سایت قرار خواهد گرفت.
+            </p>
+            <button type="submit" class="asan-submit js-asan-submit ">
+        تایید
+            </button>
+        </form>
+                </div>
+    </div>
+    <script src="../js/comments.js"></script>
+</body>
+</html>
